@@ -8,7 +8,7 @@
         ref="vuetable"
         :api-mode="false"
         :per-page="5"
-        :fields="['customerName', 'orderDate', 'status', 'address', 'total', 'phoneNumber', 'actions']"
+        :fields="fields"
         :data-manager="dataManager"
         pagination-path="pagination"
         @vuetable:pagination-data="onPaginationData"
@@ -39,6 +39,7 @@ const OrderRepository = RepositoryFactory.get("order");
 import Vuetable from "vuetable-2";
 import VuetablePagination from "vuetable-2/src/components/VuetablePagination";
 import _ from "lodash";
+import orderFields from '@/components/admin/orderFields';
 export default {
   components: {
     Vuetable,
@@ -46,6 +47,7 @@ export default {
   },
   data() {
     return {
+      fields: orderFields,
       showPanel: false,
       data: [],
       errors: [],

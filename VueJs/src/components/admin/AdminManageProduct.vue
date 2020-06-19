@@ -50,7 +50,7 @@
         ref="vuetable"
         :api-mode="false"
         :per-page="5"
-        :fields="['name', 'price', 'typeId', 'actions']"
+        :fields="fields"
         :data-manager="dataManager"
         pagination-path="pagination"
         @vuetable:pagination-data="onPaginationData"
@@ -82,6 +82,7 @@ import Vuetable from "vuetable-2";
 import VueUpload from "vue-upload-multiple-image";
 import VuetablePagination from "vuetable-2/src/components/VuetablePagination";
 import _ from "lodash";
+import productFields from '@/components/admin/productFields';
 export default {
   components: {
     Vuetable,
@@ -90,6 +91,7 @@ export default {
   },
   data() {
     return {
+      fields: productFields,
       showPanel: false,
       data: [],
       errors: [],
