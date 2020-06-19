@@ -1,0 +1,79 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(bg_login.jpg) no-repeat;
+  background-size: cover;
+}
+.form-login input{
+    /* border: none; */
+    /* outline: none; */
+    background: none;
+    color: #fff;
+}
+.login-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  background: none;
+  background-color: rgba(0, 0, 0,0.7);
+  padding: 20px 50px;
+}
+.panel{
+    background: none;
+    border: 0;
+
+}
+.panel-body{
+    padding: 15px 0;
+}
+#RememberLogin{
+    display: inline-block;
+}
+#RememberLogin>input{
+    vertical-align: middle;
+    margin: 0;
+}
+strong{
+    color: #fff;
+    font-weight: 100;
+    vertical-align: middle;
+}
+.btn-success, .btn-default{
+    padding: 10px 25px;
+    font-size: 14px;
+}
+.panel-heading{
+    background-color: none !important;
+    padding: 10px 0;
+    margin-top: -50px;
+    color: #fff !important;
+    background: none !important;
+}
+#regis{
+    margin-bottom: 15px;
+}
+#regis a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.form-group>a{
+    float: right;
+    color: #5cb85c;
+    border-color: #4cae4c;
+}
+.form-group>a:hover{
+    color: #fff;
+    border-color: #4cae4c;
+    text-decoration: none;
+}
+.panel-body>a{
+    color: #5cb85c;
+}
+.logout-footer{
+    display: none;
+}
