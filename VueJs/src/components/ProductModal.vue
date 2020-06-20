@@ -192,19 +192,19 @@ export default {
       const cart = (await store.state.cart).data;
       if (cart == undefined) {
         this.$swal.fire({
-        toast: true,
-        showConfirmButton: false,
-        timer: 3000,
-        icon: "error",
-        title: "Required login"
-      })
+          toast: true,
+          showConfirmButton: false,
+          timer: 3000,
+          icon: "error",
+          title: "Required login"
+        });
       } else {
         const item = {
           productId: this.productId,
           price: this.productData.price,
           quantity: this.quantity
         };
-        //console.log(cart.items);
+        console.log(cart.items);
         const indexItem = cart.items.findIndex(
           x => x.productId == item.productId
         );
@@ -213,16 +213,17 @@ export default {
         } else {
           cart.items.push(item);
         }
-        //console.log(cart);
+        console.log(cart);
         store.dispatch("updateCart", cart);
+        this.$swal.fire({
+          toast: true,
+          showConfirmButton: false,
+          timer: 3000,
+          icon: "success",
+          title: "Add product to cart success"
+        });
       }
-      this.$swal.fire({
-        toast: true,
-        showConfirmButton: false,
-        timer: 3000,
-        icon: "success",
-        title: "Add product to cart success"
-      })
+
       this.closeModal1();
     }
   }
