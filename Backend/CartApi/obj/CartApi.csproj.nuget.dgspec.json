@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NTTz\\Desktop\\Backend\\CartApi\\CartApi.csproj": {}
+    "C:\\Users\\NTTz\\Desktop\\Source\\Backend\\CartApi\\CartApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NTTz\\Desktop\\Backend\\CartApi\\CartApi.csproj": {
+    "C:\\Users\\NTTz\\Desktop\\Source\\Backend\\CartApi\\CartApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NTTz\\Desktop\\Backend\\CartApi\\CartApi.csproj",
+        "projectUniqueName": "C:\\Users\\NTTz\\Desktop\\Source\\Backend\\CartApi\\CartApi.csproj",
         "projectName": "CartApi",
-        "projectPath": "C:\\Users\\NTTz\\Desktop\\Backend\\CartApi\\CartApi.csproj",
+        "projectPath": "C:\\Users\\NTTz\\Desktop\\Source\\Backend\\CartApi\\CartApi.csproj",
         "packagesPath": "C:\\Users\\NTTz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NTTz\\Desktop\\Backend\\CartApi\\obj\\",
+        "outputPath": "C:\\Users\\NTTz\\Desktop\\Source\\Backend\\CartApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NTTz\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\IdentityApi.csproj",
+  "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\IdentityApi.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20521,113 +20521,113 @@
   "RootNamespace": "IdentityApi",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\Grants\\Index.cshtml",
-      "TargetPath": "Views\\Grants\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\Consent\\Index.cshtml",
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\Consent\\Index.cshtml",
       "TargetPath": "Views\\Consent\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\Device\\Success.cshtml",
-      "TargetPath": "Views\\Device\\Success.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\Shared\\Redirect.cshtml",
-      "TargetPath": "Views\\Shared\\Redirect.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\Account\\LoggedOut.cshtml",
-      "TargetPath": "Views\\Account\\LoggedOut.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\Device\\UserCodeConfirmation.cshtml",
-      "TargetPath": "Views\\Device\\UserCodeConfirmation.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\Account\\AccessDenied.cshtml",
-      "TargetPath": "Views\\Account\\AccessDenied.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\Diagnostics\\Index.cshtml",
-      "TargetPath": "Views\\Diagnostics\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\Shared\\_ValidationSummary.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationSummary.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\Account\\Logout.cshtml",
-      "TargetPath": "Views\\Account\\Logout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\Shared\\_ScopeListItem.cshtml",
-      "TargetPath": "Views\\Shared\\_ScopeListItem.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\Test\\Test.cshtml",
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\Test\\Test.cshtml",
       "TargetPath": "Views\\Test\\Test.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\Shared\\_Register.cshtml",
-      "TargetPath": "Views\\Shared\\_Register.cshtml",
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\Grants\\Index.cshtml",
+      "TargetPath": "Views\\Grants\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\Device\\UserCodeCapture.cshtml",
-      "TargetPath": "Views\\Device\\UserCodeCapture.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\Account\\Register.cshtml",
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\Account\\Register.cshtml",
       "TargetPath": "Views\\Account\\Register.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\Account\\Login.cshtml",
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\Account\\LoggedOut.cshtml",
+      "TargetPath": "Views\\Account\\LoggedOut.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\Account\\AccessDenied.cshtml",
+      "TargetPath": "Views\\Account\\AccessDenied.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\Account\\Logout.cshtml",
+      "TargetPath": "Views\\Account\\Logout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\Shared\\_ScopeListItem.cshtml",
+      "TargetPath": "Views\\Shared\\_ScopeListItem.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\Diagnostics\\Index.cshtml",
+      "TargetPath": "Views\\Diagnostics\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\Device\\UserCodeConfirmation.cshtml",
+      "TargetPath": "Views\\Device\\UserCodeConfirmation.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\Account\\Login.cshtml",
       "TargetPath": "Views\\Account\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\Shared\\_Register.cshtml",
+      "TargetPath": "Views\\Shared\\_Register.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\QThang\\Desktop\\AspnetAPI\\IdentityApi\\Views\\Shared\\_Login.cshtml",
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\Shared\\_ValidationSummary.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationSummary.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\Device\\Success.cshtml",
+      "TargetPath": "Views\\Device\\Success.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\Device\\UserCodeCapture.cshtml",
+      "TargetPath": "Views\\Device\\UserCodeCapture.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\Shared\\_Login.cshtml",
       "TargetPath": "Views\\Shared\\_Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\Shared\\Redirect.cshtml",
+      "TargetPath": "Views\\Shared\\Redirect.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     }
   ],

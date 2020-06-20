@@ -2414,11 +2414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NTTz\\Desktop\\Backend\\FashionShop\\FashionShop.csproj",
+      "projectUniqueName": "C:\\Users\\NTTz\\Desktop\\Source\\Backend\\FashionShop\\FashionShop.csproj",
       "projectName": "FashionShop",
-      "projectPath": "C:\\Users\\NTTz\\Desktop\\Backend\\FashionShop\\FashionShop.csproj",
+      "projectPath": "C:\\Users\\NTTz\\Desktop\\Source\\Backend\\FashionShop\\FashionShop.csproj",
       "packagesPath": "C:\\Users\\NTTz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NTTz\\Desktop\\Backend\\FashionShop\\obj\\",
+      "outputPath": "C:\\Users\\NTTz\\Desktop\\Source\\Backend\\FashionShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NTTz\\AppData\\Roaming\\NuGet\\NuGet.Config"

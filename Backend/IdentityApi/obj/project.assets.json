@@ -4242,11 +4242,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NTTz\\Desktop\\Backend\\IdentityApi\\IdentityApi.csproj",
+      "projectUniqueName": "C:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\IdentityApi.csproj",
       "projectName": "IdentityApi",
-      "projectPath": "C:\\Users\\NTTz\\Desktop\\Backend\\IdentityApi\\IdentityApi.csproj",
+      "projectPath": "C:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\IdentityApi.csproj",
       "packagesPath": "C:\\Users\\NTTz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NTTz\\Desktop\\Backend\\IdentityApi\\obj\\",
+      "outputPath": "C:\\Users\\NTTz\\Desktop\\Source\\Backend\\IdentityApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NTTz\\AppData\\Roaming\\NuGet\\NuGet.Config"

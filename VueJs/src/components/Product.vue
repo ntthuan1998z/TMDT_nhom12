@@ -72,27 +72,26 @@
 
                 <ul>
                   <li class="p-b-6">
-                    <a href="#" class="filter-link stext-106 trans-04">Default</a>
+                    <a
+                      :class="{'filter-link-active': filterprop == 0}"
+                      class="filter-link stext-106 trans-04"
+                    >Default</a>
                   </li>
 
                   <li class="p-b-6">
-                    <a href="#" class="filter-link stext-106 trans-04">Popularity</a>
+                    <a
+                      :class="{'filter-link-active': filterprop == 1}"
+                      @click.prevent="resultProducts.sort((a,b) => {filterprop = 1 ; return a.price - b.price})"
+                      class="filter-link stext-106 trans-04"
+                    >Price: Low to High</a>
                   </li>
 
                   <li class="p-b-6">
-                    <a href="#" class="filter-link stext-106 trans-04">Average rating</a>
-                  </li>
-
-                  <li class="p-b-6">
-                    <a href="#" class="filter-link stext-106 trans-04 filter-link-active">Newness</a>
-                  </li>
-
-                  <li class="p-b-6">
-                    <a href="#" class="filter-link stext-106 trans-04">Price: Low to High</a>
-                  </li>
-
-                  <li class="p-b-6">
-                    <a href="#" class="filter-link stext-106 trans-04">Price: High to Low</a>
+                    <a
+                      :class="{'filter-link-active': filterprop == 2}"
+                      @click.prevent="resultProducts.sort((a,b) => {filterprop = 2 ; return b.price - a.price})"
+                      class="filter-link stext-106 trans-04"
+                    >Price: High to Low</a>
                   </li>
                 </ul>
               </div>
@@ -102,27 +101,51 @@
 
                 <ul>
                   <li class="p-b-6">
-                    <a href="#" class="filter-link stext-106 trans-04 filter-link-active">All</a>
+                    <a
+                      :class="{'filter-link-active': priceFilter == 0}"
+                      @click.prevent="filterPrice(0,1000); priceFilter=0"
+                      class="filter-link stext-106 trans-04"
+                    >All</a>
                   </li>
 
                   <li class="p-b-6">
-                    <a href="#" class="filter-link stext-106 trans-04">$0.00 - $50.00</a>
+                    <a
+                      :class="{'filter-link-active': priceFilter == 1}"
+                      @click.prevent="filterPrice(0,50); priceFilter=1"
+                      class="filter-link stext-106 trans-04"
+                    >$0.00 - $50.00</a>
                   </li>
 
                   <li class="p-b-6">
-                    <a href="#" class="filter-link stext-106 trans-04">$50.00 - $100.00</a>
+                    <a
+                      :class="{'filter-link-active': priceFilter == 2}"
+                      @click.prevent="filterPrice(50,100); priceFilter=2"
+                      class="filter-link stext-106 trans-04"
+                    >$50.00 - $100.00</a>
                   </li>
 
                   <li class="p-b-6">
-                    <a href="#" class="filter-link stext-106 trans-04">$100.00 - $150.00</a>
+                    <a
+                      :class="{'filter-link-active': priceFilter == 2}"
+                      @click.prevent="filterPrice(100,150); priceFilter=2"
+                      class="filter-link stext-106 trans-04"
+                    >$100.00 - $150.00</a>
                   </li>
 
                   <li class="p-b-6">
-                    <a href="#" class="filter-link stext-106 trans-04">$150.00 - $200.00</a>
+                    <a
+                      :class="{'filter-link-active': priceFilter == 3}"
+                      @click.prevent="filterPrice(150,200); priceFilter=3"
+                      class="filter-link stext-106 trans-04"
+                    >$150.00 - $200.00</a>
                   </li>
 
                   <li class="p-b-6">
-                    <a href="#" class="filter-link stext-106 trans-04">$200.00+</a>
+                    <a
+                      :class="{'filter-link-active': priceFilter == 4}"
+                      @click.prevent="filterPrice(200,1000); priceFilter=4"
+                      class="filter-link stext-106 trans-04"
+                    >$200.00+</a>
                   </li>
                 </ul>
               </div>
@@ -136,7 +159,7 @@
                       <i class="zmdi zmdi-circle"></i>
                     </span>
 
-                    <a href="#" class="filter-link stext-106 trans-04">Black</a>
+                    <a class="filter-link stext-106 trans-04">Black</a>
                   </li>
 
                   <li class="p-b-6">
@@ -144,7 +167,7 @@
                       <i class="zmdi zmdi-circle"></i>
                     </span>
 
-                    <a href="#" class="filter-link stext-106 trans-04 filter-link-active">Blue</a>
+                    <a class="filter-link stext-106 trans-04 filter-link-active">Blue</a>
                   </li>
 
                   <li class="p-b-6">
@@ -152,7 +175,7 @@
                       <i class="zmdi zmdi-circle"></i>
                     </span>
 
-                    <a href="#" class="filter-link stext-106 trans-04">Grey</a>
+                    <a class="filter-link stext-106 trans-04">Grey</a>
                   </li>
 
                   <li class="p-b-6">
@@ -160,7 +183,7 @@
                       <i class="zmdi zmdi-circle"></i>
                     </span>
 
-                    <a href="#" class="filter-link stext-106 trans-04">Green</a>
+                    <a class="filter-link stext-106 trans-04">Green</a>
                   </li>
 
                   <li class="p-b-6">
@@ -168,7 +191,7 @@
                       <i class="zmdi zmdi-circle"></i>
                     </span>
 
-                    <a href="#" class="filter-link stext-106 trans-04">Red</a>
+                    <a class="filter-link stext-106 trans-04">Red</a>
                   </li>
 
                   <li class="p-b-6">
@@ -176,7 +199,7 @@
                       <i class="zmdi zmdi-circle-o"></i>
                     </span>
 
-                    <a href="#" class="filter-link stext-106 trans-04">White</a>
+                    <a class="filter-link stext-106 trans-04">White</a>
                   </li>
                 </ul>
               </div>
@@ -186,27 +209,22 @@
 
                 <div class="flex-w p-t-4 m-r--5">
                   <a
-                    href="#"
                     class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5"
                   >Fashion</a>
 
                   <a
-                    href="#"
                     class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5"
                   >Lifestyle</a>
 
                   <a
-                    href="#"
                     class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5"
                   >Denim</a>
 
                   <a
-                    href="#"
                     class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5"
                   >Streetstyle</a>
 
                   <a
-                    href="#"
                     class="flex-c-m stext-107 cl6 size-301 bor7 p-lr-15 hov-tag1 trans-04 m-r-5 m-b-5"
                   >Crafts</a>
                 </div>
@@ -228,7 +246,6 @@
               <img :src="item.image" alt="IMG-PRODUCT" />
 
               <a
-                href="#"
                 class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1"
                 @click.prevent="showModal(item.id)"
               >Quick View</a>
@@ -245,7 +262,7 @@
               </div>
 
               <div class="block2-txt-child2 flex-r p-t-3">
-                <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+                <a class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
                   <img
                     class="icon-heart1 dis-block trans-04"
                     src="~@/assets/images/icons/icon-heart-01.png"
@@ -298,7 +315,9 @@ export default {
       resultProducts: [],
       listTypes: [],
       isFiltingType: 100,
-      isFilting: false
+      isFilting: false,
+      filterprop: 0,
+      priceFilter: 0
     };
   },
   computed: {
@@ -314,6 +333,17 @@ export default {
   },
   //props: ["showModal1"],
   methods: {
+    filterPrice(to, from) {
+      this.resultProducts = this.listProducts.filter(item => {
+        if (this.isFiltingType != 100) {
+          return (
+            item.typeId == this.isFiltingType &&
+            item.price >= to &&
+            item.price < from
+          );
+        } else return item.price >= to && item.price < from;
+      });
+    },
     filterType(id) {
       if (id == 100) {
         this.resultProducts = this.listProducts;
@@ -327,8 +357,8 @@ export default {
     searchProduct(event) {
       const key = this.searchText.toLowerCase();
       if (event.key == "Backspace") {
-        this.filterType(this.isFiltingType)
-      } else { 
+        this.filterType(this.isFiltingType);
+      } else {
         if (this.isFiltingType != 100) {
           this.resultProducts = this.resultProducts.filter(item =>
             item.name.toLowerCase().includes(key)

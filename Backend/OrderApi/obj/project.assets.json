@@ -6343,11 +6343,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NTTz\\Desktop\\Backend\\OrderApi\\OrderApi.csproj",
+      "projectUniqueName": "C:\\Users\\NTTz\\Desktop\\Source\\Backend\\OrderApi\\OrderApi.csproj",
       "projectName": "OrderApi",
-      "projectPath": "C:\\Users\\NTTz\\Desktop\\Backend\\OrderApi\\OrderApi.csproj",
+      "projectPath": "C:\\Users\\NTTz\\Desktop\\Source\\Backend\\OrderApi\\OrderApi.csproj",
       "packagesPath": "C:\\Users\\NTTz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NTTz\\Desktop\\Backend\\OrderApi\\obj\\",
+      "outputPath": "C:\\Users\\NTTz\\Desktop\\Source\\Backend\\OrderApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NTTz\\AppData\\Roaming\\NuGet\\NuGet.Config"

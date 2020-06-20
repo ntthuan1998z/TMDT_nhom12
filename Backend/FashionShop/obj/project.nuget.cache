@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oL1ZE5C9mRyaPDV4q05NNeODCvprouyeS37cNusMl6HXyy7SLUERRvRJ+xyK4u8uRPJQevu+DM6gCbooQ+sQpQ==",
+  "dgSpecHash": "HSRjX+aAJLHicJWriRfl9pfQ5mql1P0I784mKEiQK1j0uts5SrMJ0a+WQ0ONCwetAMaqV56BMN3EC/eDnxqYOA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\NTTz\\Desktop\\Backend\\FashionShop\\FashionShop.csproj",
+  "projectFilePath": "C:\\Users\\NTTz\\Desktop\\Source\\Backend\\FashionShop\\FashionShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\NTTz\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\NTTz\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
