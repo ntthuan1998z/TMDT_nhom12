@@ -58,7 +58,7 @@
         </ul>
 
         <div class="w-full">
-          <div class="header-cart-total w-full p-tb-40">Total: ${{total}}</div>
+          <!-- <div class="header-cart-total w-full p-tb-40">Total: ${{total}}</div> -->
 
           <div class="header-cart-buttons flex-c-m w-full">
             <router-link
@@ -81,7 +81,7 @@ export default {
   data() {
     return {
       active: this.activeCart,
-      total: 0,
+      //total: 0,
       listCart: []
     };
   },
@@ -125,7 +125,7 @@ export default {
           const name = (await ProductRepo.getName(element.productId)).data;
           element["productName"] = name;
           element["img"] = img;
-          this.total += element.quantity * element.price;
+          //this.total += element.quantity * element.price;
         });
         //store.dispatch('updateCart', cart);
         this.listCart = items;
