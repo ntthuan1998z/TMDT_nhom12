@@ -39,7 +39,7 @@
                     <td class="column-4">
                       <div class="wrap-num-product flex-w m-l-auto m-r-0">
                         <div
-                          @click="item.quantity > 1 ? changeQuantity(-1, index) : null"
+                          @click="item.quantity > 0 ? changeQuantity(-1, index) : null"
                           class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m"
                         >
                           <i class="fs-12 fas fa-minus"></i>
